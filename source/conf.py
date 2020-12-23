@@ -41,16 +41,16 @@ needs_sphinx = "1.3"
 
 extensions = [
     "sphinx_rtd_theme",
-    'sphinx.ext.autosectionlabel',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.intersphinx',
-    'sphinxcontrib.httpdomain',
+ #   'sphinx.ext.autosectionlabel',
+ #   'sphinx.ext.autodoc',
+ #   'sphinx.ext.intersphinx',
+ #   'sphinxcontrib.httpdomain',
     'sphinx_tabs.tabs',
 #    'sphinx-prompt',
-    'notfound.extension',
-    'hoverxref.extension',
+#    'notfound.extension',
+#    'hoverxref.extension',
     'sphinx_search.extension',
-    'recommonmark'
+#    'recommonmark'
 ]
 
 # Warning when the Sphinx Tabs extension is used with unknown
