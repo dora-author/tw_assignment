@@ -50,7 +50,7 @@ extensions = [
 #    'sphinx-prompt',
 #    'notfound.extension',
 #    'hoverxref.extension',
-    'sphinx_search.extension'
+#    'sphinx_search.extension'
 #    'recommonmark'
 ]
 
