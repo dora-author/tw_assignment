@@ -59,8 +59,8 @@ extensions = [
 # we can ignore this so we still can treat other warnings as errors.
 sphinx_tabs_nowarn = True
 
-if not os.getenv("SPHINX_NO_SEARCH"):
-    extensions.append("sphinx_search.extension")
+#if not os.getenv("SPHINX_NO_SEARCH"):
+#    extensions.append("sphinx_search.extension")
 
 # Add any paths that contain templates here, relative to this directory.
 # templates_path = ['_templates']
