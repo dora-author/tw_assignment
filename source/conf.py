@@ -38,6 +38,7 @@ master_doc = "index"
 needs_sphinx = "1.3"
 
 # Sphinx extension module names and templates location
+sys.path.append(os.path.abspath("_extensions"))
 
 extensions = [
     "sphinx_rtd_theme",
@@ -49,7 +50,7 @@ extensions = [
 #    'sphinx-prompt',
 #    'notfound.extension',
 #    'hoverxref.extension',
-    'sphinx_search.extension',
+    'sphinx_search.extension'
 #    'recommonmark'
 ]
 
