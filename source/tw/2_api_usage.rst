@@ -111,7 +111,7 @@
 
 실제 명령 프롬프트 창에서의 응답은 다음과 같습니다.
 
-.. image:: ../_static/tw/images/usecase02.png
+.. image:: ../_static/tw/images/Usecase_02.png
 
 
 요청 시 필요한 데이터가 형식에 맞게 제대로 포함된 성공 응답이 전송되지만, 
@@ -166,4 +166,4 @@ Appx. Postman을 통한 요청 및 응답
 |  Postman 사이트 홈에서 **Create New** 메뉴를 통해 **Request** 를 생성하고 요청에 필요한 인자 값을 
 |  다음 그림과 같이 설정 후, **Send** 버튼을 클릭하면 동일 화면에서 **Response** 를 바로 확인할 수 있습니다.
 
-.. image:: ../_static/tw/images/postman.png
+.. image:: ../_static/tw/images/Postman_01.png
