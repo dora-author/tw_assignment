@@ -20,7 +20,7 @@ import os
 # -- Project information -----------------------------------------------------
 
 project = 'Tech Assignment'
-copyright = "2020, ㈜비바리퍼블리카"
+copyright = "2020, EJKIM-AUTHOR"
 author = "Kim, EunJung"
 
 # The full version, including alpha/beta/rc tags

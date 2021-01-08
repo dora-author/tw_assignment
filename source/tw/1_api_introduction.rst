@@ -6,9 +6,9 @@
 1.1 결제 API란
 ==================================================
 
-결제 API(Application Programming Interface)는 토스페이먼츠에서 제공하는 결제 서비스를 사용하기 위하여 `REST API <https://en.wikipedia.org/wiki/Representational_state_transfer>`_ 형태로 제공되는 클라이언트(요청) - 서버(처리 및 응답) 간의 인터페이스입니다.
+결제 API(Application Programming Interface)는 결제 서비스를 사용하기 위하여 `REST API <https://en.wikipedia.org/wiki/Representational_state_transfer>`_ 형태로 제공되는 클라이언트(요청) - 서버(처리 및 응답) 간의 인터페이스입니다.
 
-토스페이먼츠의 결제 API는 `HTTP 프로토콜 <https://developer.mozilla.org/ko/docs/Web/HTTP/Overview>`_ 을 활용하므로 클라이언트와 서버간에 HTTP 요청 및 HTTP 응답을 전송할 수 있습니다.
+결제 API는 `HTTP 프로토콜 <https://developer.mozilla.org/ko/docs/Web/HTTP/Overview>`_ 을 활용하므로 클라이언트와 서버간에 HTTP 요청 및 HTTP 응답을 전송할 수 있습니다.
 
 |
 1.2 API 구성 요소
@@ -41,7 +41,7 @@
     * ``DELETE`` : DELETE를 통해 리소스를 삭제합니다.   
 ..
 
-.. warning:: 토스페이먼츠의 결제 API는 HTTPS 프로토콜만 지원합니다. HTTP로 요청하는 경우 실패하게 됩니다.
+.. warning:: 결제 API는 HTTPS 프로토콜만 지원합니다. HTTP로 요청하는 경우 실패하게 됩니다.
 
 
 |
@@ -78,7 +78,7 @@
 
           | ``403`` - Forbidden      시크릿 키 없이 요청하거나 사용한 시크릿 키가 잘못된 경우입니다.
           | ``404`` - Not Found      요청한 리소스가 존재하지 않는 경우입니다.
-          | ``500`` - Server Error   토스페이먼츠의 서버에 에러가 발생한 경우입니다.   
+          | ``500`` - Server Error   서버 에러가 발생한 경우입니다.   
 ..
 
 
